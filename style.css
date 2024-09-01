@@ -530,7 +530,7 @@ footer {
     background: transparent;
 }
 #contatoFooter h4 {
-    text-align: left;
+    text-align: center;
 }
 #contatoFooter label,
 #contatoFooter input {
@@ -552,9 +552,12 @@ footer {
     height: 50px;
 }
 .enviarMsg {
+    margin: 0 auto;
     display: flex;
     align-items: center;
+    position: relative;
     justify-content: left;
+    width: 260px;
 }
 
 .container.text-center #sobreCol1Footer,
@@ -706,6 +709,7 @@ footer {
 }
 
 .spaceMainFooter {
+    display: block;
     height: 200px;
     background: #fff;
 }
@@ -720,7 +724,10 @@ footer {
     #menuFooterSecond {
         display: none;
     }
-
+    #main-header .navbar.navbar.fixed-top .container-fluid .dropdown-item {
+        font-size: 20px;
+        color: black;
+    }
     #containerTextCenterThree .row .col .imageMulherTexto,
     #containerTextCenterThree .row .col .imagemHomemTexto {
         height: 250px;
@@ -829,6 +836,10 @@ footer {
             position: relative;
             left: 25px;
         }
+        #main-header .navbar.navbar.fixed-top .container-fluid .dropdown-item {
+            font-size: 20px;
+            color: black;
+        }
         #main-header .navbar.navbar.fixed-top .container-fluid .navbar-toggler {
             background: #fff;
         }
@@ -848,9 +859,6 @@ footer {
         #main-header .navbar.navbar.fixed-top .container-fluid .offcanvas-body .nav-link.dropdown-toggle {
             font-size: 25px;
             color: #fff;
-        }
-        #main-header .navbar.navbar.fixed-top .container-fluid .dropdown-item {
-            font-size: 20px;
         }
         #main-header .navbar.navbar.fixed-top .container-fluid .d-flex.mt-3 .btn.btn-success {
             padding: 15px;
@@ -976,8 +984,8 @@ footer {
         #containerTextCenterThree #imgHomemContThree img {
             height: 150px;
             position: relative;
-            left: 135px;
-            bottom: 450px;
+            left: 10px;
+            bottom: 40px;
         }
     
         #containerTextCenterThree #rowImgSecondTex {
@@ -1106,7 +1114,8 @@ footer {
     
         footer .container.text-center #rowPrimary #colFooter img {
             height: 100px;
-            margin: 25px 0;
+            margin: 25px auto;
+            width: 150px;
         }
     
         footer .container.text-center #rowPrimary #colFooter .footerP {
@@ -1118,9 +1127,11 @@ footer {
         }
     
         #menuFooter {
+            position: relative;
             text-align: left;
             margin: 20px 0;
-            width: 120px;
+            width: 42px;
+            left: auto;
         }
     
         #menuFooter a {
@@ -1129,7 +1140,8 @@ footer {
         }
 
         #infoMenuFooter {
-            
+            width: 100px;
+            margin: 0 auto;
         }
     
         #contatoFooter {
@@ -1138,8 +1150,9 @@ footer {
     
         #contatoFooter h4 {
             position: relative;
-            margin-bottom: 30px;
-            left: -40px;
+            left: 0;
+            width: 200px;
+            margin: 0 auto;
         }
     
         #contatoFooter label,
@@ -1223,6 +1236,10 @@ footer {
             display: none;
         }
     
+        .spaceQuebraFooter {
+            display: block;
+        }
+
         .spacePonti {
             border-top: 8px dotted #36015D;
             width: 80%;
@@ -1266,16 +1283,14 @@ footer {
         .spaceEntreCards {
             height: 50px;
             display: block;
-        }
+        }        
     
         .spaceMeioCard {
             display: none;
         }
     
         .spaceMainFooter {
-            height: 80px;
-            background: #fff;
-            margin: 25px 0;
+            display: none;
         }        
 
         #containerTextCenterThree .row .col .imageMulherTexto,
@@ -1300,6 +1315,12 @@ footer {
                 height: 140px;
                 position: relative;
                 left: 25px;
+                width: 190px;
+            }
+            #main-header .navbar.navbar.fixed-top .container-fluid .navbar-toggler {
+                background: #fff;
+                position: relative;
+                left: 55px;
             }
             #main-header .navbar.navbar.fixed-top .container-fluid .dropdown-item {
                 font-size: 20px;
@@ -1351,6 +1372,12 @@ footer {
               50%{
                 transform: scale(1.3);
               }
+            }
+            #containerTextCenterOne #rowCards .col #cardInformationOne, #containerTextCenterOne #rowCards .col #cardInformationSecond {
+                margin: 0 auto;
+                width: 80%;
+                border-radius: 35px;
+                height: 520px;
             }
             #rowCards {
                 display: flex;
@@ -1433,10 +1460,11 @@ footer {
         
             #containerTextCenterFour .row.justify-content-md-center #paragrafContFour p {
                 font-size: 20px;
-                width: 400px;
                 margin: 0 auto;
                 border-radius: 25px;
                 text-align: justify;
+                width: 350px;
+                margin: 65px auto;
             }
           
             #containerTextCenterFour .row.justify-content-md-center #paragrafContFour ul {
@@ -1518,7 +1546,7 @@ footer {
             #cardSectionSecond #rowInfo ul {
                 width: 350px;
                 position: relative;
-                right: 50px;
+                right: 100px;
             }
 
             #sectionSecond .cardInfoSection #autoFisico h3, 
@@ -1784,7 +1812,9 @@ footer {
             #containerTextCenterThree .row .col .textoPosImagem {
                 z-index: 0;
             }
-
+            footer {
+                display: none;
+            }
 
 
             
@@ -1805,6 +1835,11 @@ footer {
                     width: 80%;
                     border-radius: 35px;
                     height: 420px;
+                }
+
+                #main-header .navbar.navbar.fixed-top .container-fluid .dropdown-item {
+                    font-size: 20px;
+                    color: black;
                 }
 
                 #containerTextCenterOne #rowCards .col #cardInformationOne img, #containerTextCenterOne #rowCards .col #cardInformationSecond img {
@@ -1870,6 +1905,15 @@ footer {
                     right: 80px;
                 }
 
+                #containerTextCenterThree #imagemHomemTextoPrime {
+                    display: block;
+                }
+
+                #containerTextCenterThree #imagemHomemTextoPrime img{
+                    height: 195px;
+                    width: 100%;
+                }
+
                 #containerTextCenterThree .row .col .imageMulherTexto,
                 #containerTextCenterThree .row .col .imagemHomemTexto,
                 #sectionSecond .cardInfoSection,
@@ -1899,6 +1943,10 @@ footer {
                     margin: 0 auto;
                     width: 250px;
                     justify-content: left;
+                }
+
+                .spaceImgMulherHomem {
+                    display: block;
                 }
             }
         }
